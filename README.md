@@ -8,8 +8,8 @@ MilitaryOR-100 pairs 100 military operations research problems (air-defense weap
 
 | File | Description |
 |---|---|
-| `data/ADFP_100.jsonl` | The full 100-problem benchmark (natural language + reference Lean statements). |
-| `data/ADFP_87_verified.jsonl` | The 87 problems whose autoformalized Lean statements passed type checking (adds the `lean4_statement` field). |
+| `data/ADFP_100_EN.jsonl` | The full 100-problem benchmark (natural language + reference Lean statements). |
+| `data/ADFP_100_FL.jsonl` | The 100 problems whose autoformalized Lean statements passed type checking . |
 
 Each record contains: `id`, `domain`, `task_type`, `difficulty`, `focus`, `synthetic`, `problem_text`, `objective`, `constraints`, `assumptions`, `params`, and `lean_target`.
 
